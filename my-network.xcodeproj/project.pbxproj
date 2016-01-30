@@ -54,6 +54,11 @@
 		ACAD8EB21C5CDC5000090B29 /* my-network */ = {
 			isa = PBXGroup;
 			children = (
+				ACAD8EC91C5CE66A00090B29 /* Util */,
+				ACAD8EC81C5CE66300090B29 /* Ressources */,
+				ACAD8EC71C5CE65D00090B29 /* Model */,
+				ACAD8EC61C5CE65800090B29 /* View */,
+				ACAD8EC51C5CE65000090B29 /* Controller */,
 				ACAD8EB31C5CDC5000090B29 /* AppDelegate.swift */,
 				ACAD8EB51C5CDC5000090B29 /* ViewController.swift */,
 				ACAD8EB71C5CDC5000090B29 /* Main.storyboard */,
@@ -62,6 +67,41 @@
 				ACAD8EBF1C5CDC5000090B29 /* Info.plist */,
 			);
 			path = "my-network";
+			sourceTree = "<group>";
+		};
+		ACAD8EC51C5CE65000090B29 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		ACAD8EC61C5CE65800090B29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		ACAD8EC71C5CE65D00090B29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ACAD8EC81C5CE66300090B29 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+		ACAD8EC91C5CE66A00090B29 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
