@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38B71EB6DB9B1E4D0AA8646D /* Pods_my_network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAC3AB3AAAF87288D66699D /* Pods_my_network.framework */; };
+		AC18A1C91C63D1DA00D7FB21 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC18A1C81C63D1DA00D7FB21 /* DataService.swift */; };
+		AC34A28F1C63BF2900F0BB1F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC34A28C1C63BF2900F0BB1F /* Bolts.framework */; };
+		AC34A2901C63BF2900F0BB1F /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC34A28D1C63BF2900F0BB1F /* FBSDKCoreKit.framework */; };
+		AC34A2911C63BF2900F0BB1F /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC34A28E1C63BF2900F0BB1F /* FBSDKLoginKit.framework */; };
+		AC5363911C6A43A4004A15D4 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5363901C6A43A4004A15D4 /* FeedVC.swift */; };
+		AC5363931C6A44AF004A15D4 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5363921C6A44AF004A15D4 /* PostCell.swift */; };
+		AC9EA3E61C6D3CEB002DBADA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9EA3E51C6D3CEB002DBADA /* Post.swift */; };
 		ACAD8EB41C5CDC5000090B29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAD8EB31C5CDC5000090B29 /* AppDelegate.swift */; };
 		ACAD8EB61C5CDC5000090B29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAD8EB51C5CDC5000090B29 /* ViewController.swift */; };
 		ACAD8EB91C5CDC5000090B29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAD8EB71C5CDC5000090B29 /* Main.storyboard */; };
@@ -23,6 +31,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BD96158A3597994643FDB3F /* Pods-my-network.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-my-network.release.xcconfig"; path = "Pods/Target Support Files/Pods-my-network/Pods-my-network.release.xcconfig"; sourceTree = "<group>"; };
+		4FAC3AB3AAAF87288D66699D /* Pods_my_network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_my_network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC18A1C81C63D1DA00D7FB21 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		AC34A28C1C63BF2900F0BB1F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		AC34A28D1C63BF2900F0BB1F /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		AC34A28E1C63BF2900F0BB1F /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		AC5363901C6A43A4004A15D4 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		AC5363921C6A44AF004A15D4 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		AC9EA3E51C6D3CEB002DBADA /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		ACAD8EB01C5CDC5000090B29 /* my-network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-network.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAD8EB31C5CDC5000090B29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACAD8EB51C5CDC5000090B29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +55,7 @@
 		ACAD8ED41C5E230000090B29 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ACAD8ED61C5E2AC000090B29 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		ACAD8ED81C5E2B4600090B29 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		C1CB331CA55A3B2370DED1E5 /* Pods-my-network.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-my-network.debug.xcconfig"; path = "Pods/Target Support Files/Pods-my-network/Pods-my-network.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,17 +63,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC34A28F1C63BF2900F0BB1F /* Bolts.framework in Frameworks */,
+				AC34A2901C63BF2900F0BB1F /* FBSDKCoreKit.framework in Frameworks */,
+				AC34A2911C63BF2900F0BB1F /* FBSDKLoginKit.framework in Frameworks */,
+				38B71EB6DB9B1E4D0AA8646D /* Pods_my_network.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A3F3EDE29483E59B43006B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FAC3AB3AAAF87288D66699D /* Pods_my_network.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71C46A928A9C6070E42072BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1CB331CA55A3B2370DED1E5 /* Pods-my-network.debug.xcconfig */,
+				1BD96158A3597994643FDB3F /* Pods-my-network.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC18A1C71C63D1CB00D7FB21 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AC18A1C81C63D1DA00D7FB21 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		AC34A28B1C63BF1C00F0BB1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC34A28C1C63BF2900F0BB1F /* Bolts.framework */,
+				AC34A28D1C63BF2900F0BB1F /* FBSDKCoreKit.framework */,
+				AC34A28E1C63BF2900F0BB1F /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ACAD8EA71C5CDC5000090B29 = {
 			isa = PBXGroup;
 			children = (
 				ACAD8EB21C5CDC5000090B29 /* my-network */,
 				ACAD8EB11C5CDC5000090B29 /* Products */,
+				71C46A928A9C6070E42072BD /* Pods */,
+				2A3F3EDE29483E59B43006B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +129,8 @@
 		ACAD8EB21C5CDC5000090B29 /* my-network */ = {
 			isa = PBXGroup;
 			children = (
+				AC18A1C71C63D1CB00D7FB21 /* Services */,
+				AC34A28B1C63BF1C00F0BB1F /* Frameworks */,
 				ACAD8EC91C5CE66A00090B29 /* Util */,
 				ACAD8EC81C5CE66300090B29 /* Ressources */,
 				ACAD8EC71C5CE65D00090B29 /* Model */,
@@ -88,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				ACAD8EB51C5CDC5000090B29 /* ViewController.swift */,
+				AC5363901C6A43A4004A15D4 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -98,6 +160,7 @@
 				ACAD8ED21C5E22A000090B29 /* MaterialView.swift */,
 				ACAD8ED61C5E2AC000090B29 /* MaterialButton.swift */,
 				ACAD8ED81C5E2B4600090B29 /* MaterialTextField.swift */,
+				AC5363921C6A44AF004A15D4 /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -105,6 +168,7 @@
 		ACAD8EC71C5CE65D00090B29 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AC9EA3E51C6D3CEB002DBADA /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -135,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACAD8EC21C5CDC5000090B29 /* Build configuration list for PBXNativeTarget "my-network" */;
 			buildPhases = (
+				E698CF86A173C6DBA6E9AE21 /* Check Pods Manifest.lock */,
 				ACAD8EAC1C5CDC5000090B29 /* Sources */,
 				ACAD8EAD1C5CDC5000090B29 /* Frameworks */,
 				ACAD8EAE1C5CDC5000090B29 /* Resources */,
+				5809E1DCDEB344C3E0B60C66 /* Embed Pods Frameworks */,
+				0939B5A423D09ADA0C2FE294 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,17 +266,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0939B5A423D09ADA0C2FE294 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-my-network/Pods-my-network-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5809E1DCDEB344C3E0B60C66 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-my-network/Pods-my-network-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E698CF86A173C6DBA6E9AE21 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ACAD8EAC1C5CDC5000090B29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ACAD8ED91C5E2B4600090B29 /* MaterialTextField.swift in Sources */,
+				AC18A1C91C63D1DA00D7FB21 /* DataService.swift in Sources */,
 				ACAD8ED31C5E22A000090B29 /* MaterialView.swift in Sources */,
 				ACAD8EB61C5CDC5000090B29 /* ViewController.swift in Sources */,
+				AC5363911C6A43A4004A15D4 /* FeedVC.swift in Sources */,
+				AC5363931C6A44AF004A15D4 /* PostCell.swift in Sources */,
 				ACAD8EB41C5CDC5000090B29 /* AppDelegate.swift in Sources */,
 				ACAD8ED51C5E230000090B29 /* Constants.swift in Sources */,
 				ACAD8ED71C5E2AC000090B29 /* MaterialButton.swift in Sources */,
+				AC9EA3E61C6D3CEB002DBADA /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,8 +439,14 @@
 		};
 		ACAD8EC31C5CDC5000090B29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1CB331CA55A3B2370DED1E5 /* Pods-my-network.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/my-network",
+				);
 				INFOPLIST_FILE = "my-network/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stefanblos.my-network";
@@ -331,8 +456,14 @@
 		};
 		ACAD8EC41C5CDC5000090B29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD96158A3597994643FDB3F /* Pods-my-network.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/my-network",
+				);
 				INFOPLIST_FILE = "my-network/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stefanblos.my-network";
@@ -359,6 +490,7 @@
 				ACAD8EC41C5CDC5000090B29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
